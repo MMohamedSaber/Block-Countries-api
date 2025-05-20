@@ -3,7 +3,7 @@ using BlockedCountries.Core;
 using BlockedCountries.Core.Entities;
 using BlockedCountries.Core.interfaces;
 using BlockedCountries.Infrastructure.Repositories;
-using BlockedCountries.Infrastructure.Services;
+using BlockedCountries.Infrastructure.Repositories.Services;
 
 namespace BlockedCountries.API
 {

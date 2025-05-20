@@ -1,12 +1,12 @@
 ﻿
 using System.Net;
 using System.Text.Json;
-using BlockedCountries.Core;
+using BlockedCountries.Core.DTOs;
 using BlockedCountries.Core.interfaces;
-using Microsoft.Extensions.Configuration    ;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace BlockedCountries.Infrastructure.Services
+namespace BlockedCountries.Infrastructure.Repositories.Services
 {
     public class GeolocationService :IGeolocationService
     {

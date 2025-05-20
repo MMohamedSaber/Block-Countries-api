@@ -1,7 +1,7 @@
 ﻿
 using System.Text.Json.Serialization;
 
-namespace BlockedCountries.Core
+namespace BlockedCountries.Core.DTOs
 {
     public class GeoLocationResponse
     {

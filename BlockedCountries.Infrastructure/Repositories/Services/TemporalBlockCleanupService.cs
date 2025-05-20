@@ -4,7 +4,7 @@ using BlockedCountries.Core.interfaces;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace BlockedCountries.Infrastructure.Services
+namespace BlockedCountries.Infrastructure.Repositories.Services
 {
     public class TemporalBlockCleanupService : BackgroundService
     {
